@@ -12,12 +12,12 @@ As the DevOps Engineer leading this project the team has asked you to roll out t
 - Create a pipeline to build, test and push your container to a repository in an automated fashion (can use any CI CD tool)
 - Prepare to demo your challenge to the DevOps team in preparation for the Tech Hub
 
-** Considerations: **
+**Considerations:**
 - Any improvements to be made
 - Security
 - Monitoring
 - Resiliency and Production Readiness
 
-## Advanced (Optional) :
+## Bonus Task:
 - Write IaC using Terraform to host application on AWS EKS
 - Deploy application to EKS
