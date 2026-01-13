@@ -9,7 +9,7 @@ My personal mac hasn't been used in a while so I had to:
 ## Docker
 First things first, will the docker file build correctly `docker build -t app .`
 
-It does buil
+It does build
 
 Now run it and make sure I can view the site `docker run -p 8000:8000 app`
 
