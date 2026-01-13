@@ -41,6 +41,16 @@ note - at this point as this was my local machine I noticed autosave was not on 
 - github action added to build image
 - changed github action to build and push to my own repo on dockerhub
 
+## Add pytest
+ - add `requirements.txt` to lock things in place and have one place for dependencies
+ - `pip install pytest`
+ - `pip install pytest-cov`
+ - Create `test_main.py` for tests
+ - run pytest locally with coverage to make sure passes
+
+## add pytest to build and push
+ - Update github action with pytest action
+
 ## Considerations
 - Any improvements to be made
 - Security
