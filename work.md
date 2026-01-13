@@ -27,10 +27,19 @@ tell env to use docker on minikube
 - `eval $(minikube docker-env)`
 - `docker build -t pokemon-image .`
 
-note - spent ages not realising the chart app version was being fed in to the pull instead of latest
+note - spent ages not realising the chart app version was being fed in to the pull instead of `latest`
 
 ## Update helm chart values
-updated liveness and readiness default values from http to 8000 as per dockerfile
+- updated liveness and readiness default values from http to 8000 as per dockerfile
+- updated service from ClusterIP to LoadBalancer
+- created minikube tunnel to expose app to world `minikube tunnel`
+- deployed via helm and can browse locally to app
+
+## Fork the repo so I can create Github Actions
+note - at this point as this was my local machine I noticed autosave was not on and I lost a few thing, auto-save now on so plough forward again.
+- repo forked
+- github action added to build image
+- changed github action to build and push to my own repo on dockerhub
 
 ## Considerations
 - Any improvements to be made
